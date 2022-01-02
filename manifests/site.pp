@@ -1,6 +1,6 @@
 node default {
 }
-node 'master.puppet.vm' {
+node 'rhelearn.nimmlpjyqpse1ptvgyl0vmgeod.dxbx.internal.cloudapp.net' {
   include role::master_server
 }
 
