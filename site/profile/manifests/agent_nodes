@@ -2,5 +2,5 @@ class profile::agent_nodes {
   include dockeragent
   dockeragent::node { 'web.puppet.vm': }
   dockeragent::node { 'db.puppet.vm': }
-  dockeragent::node { 'rhelearn.nimmlpjyqpse1ptvgyl0vmgeod.dxbx.internal.cloudapp.net': }
+  #dockeragent::node { 'rhelearn.nimmlpjyqpse1ptvgyl0vmgeod.dxbx.internal.cloudapp.net': }
 }
